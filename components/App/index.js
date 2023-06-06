@@ -1,12 +1,16 @@
 import Main from "../main/index.js";
 import Header from "../header/index.js";
-
+import Presentation from "../presentation/index.js";
 
 function App(){
     return(
         <>
             <Header />
-            <Main />
+            <main>
+                <Main />    
+                <Presentation />
+
+            </main>
         </>
     )
 }

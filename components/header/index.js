@@ -1,7 +1,10 @@
+import image from '/pdp.jpg'
+
+
 function header(){
     return(
         <header>
-            <img src="pdp.jpg"></img>
+            <img src={image} alt="Mon image" />
             {/* <h1>Xavier Marcotte</h1> */}
             <nav>
                 <a href="">Accueil</a>
