@@ -1,9 +1,9 @@
-function article(img, text){
+function article({name, logo}){
     return(
         <>
             <article>
-                <img src=''></img>
-                <h3>{text}</h3>
+                {name}
+                <p>{logo}</p>
             </article>
         </>
     )

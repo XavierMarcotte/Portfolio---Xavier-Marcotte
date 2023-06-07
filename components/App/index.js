@@ -1,6 +1,9 @@
 import Main from "../main/index.js";
 import Header from "../header/index.js";
 import Presentation from "../presentation/index.js";
+import Competence from "../competences/index.js";
+import Pied from "../Footer/index.js";
+
 
 function App(){
     return(
@@ -9,8 +12,9 @@ function App(){
             <main>
                 <Main />    
                 <Presentation />
-
+                <Competence />
             </main>
+            <Pied />
         </>
     )
 }
