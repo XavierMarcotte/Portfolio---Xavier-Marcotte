@@ -1,15 +1,23 @@
 .accueil {
     margin: 8em 15em;
+    height: 60vh;
     h1{
         font-size: 3em;
         margin: 1.2em auto 0.5em auto;
     }
     .bonjour{
         margin-left: 2em;
+        color: orange;
     }
     .fonction{
         font-size: 2em;
         color: rgba(255, 255, 255, 0.781);
+        margin: 1.5em auto;
+    }
+    .bienvenu{
+        margin-top: 3em;
+        font-size: 2em;
+        text-align: center;
     }
     button {
         border: none;

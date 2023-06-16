@@ -1,13 +1,13 @@
-function article({name, logo}){
+function article({nom, logo}){
     return(
         <>
             <article>
-                {name}
-                <p>{logo}</p>
+                {logo}
+                <p>{nom}</p>
             </article>
         </>
     )
 }
 
 
-export default article
+export default article;
