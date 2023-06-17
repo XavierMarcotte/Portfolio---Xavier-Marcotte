@@ -1,0 +1,36 @@
+.competences{
+    background: white;
+    margin: auto;
+    h2{
+        padding-top: 4em;
+        color: rgb(255, 166, 0);
+        font-size: 2em;
+        text-align: center;
+        margin: auto auto 3em auto;
+        width: 70%;
+
+    }
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 2em;
+        margin: 1em auto;
+        width: 70%;
+        li{
+            cursor: pointer;
+            color: black;
+        }
+    }
+    .competencescontent{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        article{
+            p{
+                color: black;
+            }
+        }
+    }
+}

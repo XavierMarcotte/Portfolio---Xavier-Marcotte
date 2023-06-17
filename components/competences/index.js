@@ -26,6 +26,7 @@ function Competences() {
 
   return (
     <section className="competences" id='competences'>
+      <h2>Mes compétences</h2>
       <ul>
         <li onClick={() => handleCompetenceClick('front')}>Front-end</li>
         <li onClick={() => handleCompetenceClick('back')}>Back-end</li>

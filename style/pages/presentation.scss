@@ -1,10 +1,13 @@
 .presentation{
-    height: 100%;
+    // transform: rotate(-4deg) scale(1.2, 1);
+    height: 100vh;
+    width: 70%;
     margin: auto;
     .suis{
         color: orange;
         font-size: 2em;
-        margin: auto auto 1.5em 2em
+        padding-top: 8rem;
+        margin: auto auto 3rem 3rem;
     }
     .-je{
         font-size: 1.5em;
