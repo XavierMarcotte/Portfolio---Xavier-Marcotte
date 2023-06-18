@@ -43,38 +43,21 @@ body{
         }
         }
     footer {
-        font-size: 0.8em;
+        min-height: 15vh;
+        font-size: 1em;
         background: black;
         color: white;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        .link{
+        a{
+            padding-bottom: 0.5em;
             color: white;
             text-decoration: none;
-            padding: 1em;
         }
-        .link:hover{
-            box-shadow: inset 0px -4px 0px orange;
+        a:hover{
+            box-shadow: inset 0px -2px 0px orange;
             transition: 0.4s ease;
-        }
-
-        .reseaux{
-            display: grid;
-            grid-template-rows: 50% 50%;
-            line-height: 3em;
-            font-size: 1.5em;
-            div{
-                a{
-                    color: white;
-                    text-decoration: none;
-                    padding: 0.5em 1em;
-                }
-                a:hover{
-                    box-shadow: inset 0px -4px 0px orange;
-                    transition: 0.4s ease;
-                }
-            }
         }
     }
 }
