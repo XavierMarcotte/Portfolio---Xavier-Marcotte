@@ -17,4 +17,4 @@ function Outils(){
 }
 
 
-export default Outils();
+export default Outils;

@@ -5,6 +5,7 @@ import Competences from "../competences/index.js";
 import Pied from "../Footer/index.js";
 
 
+
 function App(){
     return(
         <>
@@ -15,6 +16,7 @@ function App(){
                 <Competences />
             </main>
             <Pied />
+            
         </>
     )
 }
