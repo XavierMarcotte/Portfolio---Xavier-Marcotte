@@ -14,7 +14,7 @@ function Outils(){
             <Article logo={<img src={git} alt="Git" />} nom="GIT" />
         </>
     )
-}
+} 
 
 
-export default Outils();
+export default Outils;
