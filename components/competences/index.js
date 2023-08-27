@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Outils from './outils';
 import Front from './front';
 import Back from './back';
@@ -9,23 +9,21 @@ import Back from './back';
 
 
 function Competences() {
-  const [selectedCompetence, setSelectedCompetence] = useState('front'); // Définir 'front' comme valeur par défaut
+  const [selectedCompetence, setSelectedCompetence] = useState('front');
 
   const handleCompetenceClick = (competence) => {
     setSelectedCompetence(competence);
   };
 
+
   let competenceContent = null;
   if (selectedCompetence === 'front') {
     competenceContent = <Front />;
-  } 
-  else if (selectedCompetence === 'devops') {
+  } else if (selectedCompetence === 'devops') {
     competenceContent = <Outils />;
-  }
-  else if (selectedCompetence === 'back') {
+  } else if (selectedCompetence === 'back') {
     competenceContent = <Back />;
-  } 
-  else {
+  } else {
     competenceContent = <Front />;
   }
 
