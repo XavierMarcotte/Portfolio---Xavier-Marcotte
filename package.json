@@ -2,7 +2,6 @@
   "name": "portfolio---xavier-marcotte",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "source": "index.html",
   "type": "module",
   "scripts": {
@@ -22,7 +21,7 @@
   },
   "homepage": "https://github.com/XavierMarcotte/Portfolio---Xavier-Marcotte#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.9.1",
+    "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.1",
     "process": "^0.11.10"
   },
