@@ -1,5 +1,6 @@
 *{
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -33,11 +34,6 @@ body{
                 a:hover{
                     box-shadow: inset 0px -2px 0px orange;
                     transition: 0.4s ease;
-                }
-                .contact{
-                    border: 1px solid white;
-                    border-radius: 20px;
-                    padding: 10px;
                 }
 
         }

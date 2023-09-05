@@ -6,6 +6,8 @@ import sassLogo from './meslogos/sass.png';
 import reactLogo from './meslogos/react.png';
 import markdownLogo from './meslogos/mark.png';
 import tsLogo from './meslogos/ts.png';
+import next from './meslogos/nextjs.png';
+
 
 function Front() {
   return (
@@ -17,6 +19,7 @@ function Front() {
       <Article logo={<img src={reactLogo} alt="React.js" />} nom="React.js" />
       <Article logo={<img src={markdownLogo} alt="Markdown" />} nom="Markdown" />
       <Article logo={<img src={tsLogo} alt="Typescript" />} nom="Typescript" />
+      <Article logo={<img src={next} alt="Next.js" />} nom="Next.js" />
     </>
   );
 }

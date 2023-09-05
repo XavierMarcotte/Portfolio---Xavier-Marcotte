@@ -4,7 +4,7 @@ import Presentation from "../presentation/index.js";
 import Competences from "../competences/index.js";
 import Pied from "../Footer/index.js";
 import Projets from "../projets/index.js";
-
+import Contact from "../contact/index.js";
 
 function App(){
     return(
@@ -15,6 +15,7 @@ function App(){
                 <Presentation />
                 <Projets />
                 <Competences />
+                <Contact />
             </main>
             <Pied />
             

@@ -13,7 +13,7 @@ function header(){
                 <a href="/#presentation">Présentation</a>
                 <a href="/#projets">Projets Perso</a>
                 <a href="/#competences">Compétences</a>
-                <a href="/" className="contact">Me contacter</a>
+                <a href="/#contact" className="contact">Me contacter</a>
             </nav>
         </header>
     )

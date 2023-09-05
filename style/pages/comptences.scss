@@ -22,6 +22,7 @@
         li{
             cursor: pointer;
             color: black;
+            font-weight: bold;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -55,8 +56,7 @@
                 margin: 1em auto;
                 color: black;
                 text-align: center;
-                padding: 0.5em;
-                margin-bottom: -0.2em;
+                font-weight: bold;
             }
         }
         .competencescontent{
