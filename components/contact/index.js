@@ -6,15 +6,15 @@ function contact(){
     return(
         <section className="contacter" id="contact">
             <div className='contacter-div'>
-                <img className='contacter-div-photo' src={li}></img>
+                <img className='contacter-div-photo' src={li} alt='LinkedIn'></img>
                 <a href='https://www.linkedin.com/in/xaviermarcotte/' target='_blank' className='contacter-div-text'>LinkedIn</a>
             </div>
             <div className='contacter-div'>
-                <img className='contacter-div-photo' src={gh}></img>
+                <img className='contacter-div-photo' src={gh} alt='Github'></img>
                 <a href='https://github.com/XavierMarcotte' target='_blank' className='contacter-div-text'>GitHub</a>
             </div>
             <div className='contacter-div'>
-                <img className='contacter-div-photo' src={mail}></img>
+                <img className='contacter-div-photo' src={mail} alt='logo mail'></img>
                 <p className='contacter-div-text'>xaviermarcotte08@gmail.com</p>
             </div>
         </section>
