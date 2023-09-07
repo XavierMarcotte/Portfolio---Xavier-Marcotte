@@ -58,3 +58,25 @@
 
     }
 }
+@media screen and (max-width: 1450px){
+    .projets div{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1050px){
+    .projets div{
+        width: 98%;
+    }
+}
+@media screen and (max-width: 950px){
+    .projets div .projets--article{
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 700px){
+    .projets div .projets--article{
+        width: 70%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

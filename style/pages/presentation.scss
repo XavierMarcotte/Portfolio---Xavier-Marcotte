@@ -19,3 +19,16 @@
 
     }
 }
+
+@media screen and (max-width: 1069px) {
+    .presentation{
+        div{padding-bottom: 3rem;}
+    }
+}
+@media screen and (max-width: 500px) {
+    
+    .presentation div .suis{
+        margin: auto auto 3rem 0;
+    }
+}
+

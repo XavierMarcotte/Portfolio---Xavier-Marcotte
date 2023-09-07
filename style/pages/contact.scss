@@ -21,3 +21,13 @@
         }
     }
 }
+@media screen and (max-width: 735px){
+    .contacter{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 460px){
+    .contacter{
+        width: 90%;
+    }
+}

@@ -43,3 +43,12 @@
         transition: 1s ease;
     }
 }
+
+@media screen and (max-width: 560px) {
+ .accueil {
+    width: 85%;
+    .bonjour{
+        margin-left: 0;
+     }
+    }
+}

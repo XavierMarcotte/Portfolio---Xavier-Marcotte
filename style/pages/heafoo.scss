@@ -47,21 +47,64 @@ body{
         align-items: center;
         justify-content: space-evenly;
         a{
-            padding-bottom: 0.5em;
             color: white;
             text-decoration: none;
         }
         a:hover{
-            box-shadow: inset 0px -2px 0px orange;
+            box-shadow: inset 0px -1px 0px orange;
             transition: 0.4s ease;
         }
     }
 }
-@media screen and (max-width: 1150px) {
-        header nav {
-            flex-direction: column;
-            a{
-                line-height: 2rem;
-            }
-        }
+
+@media screen and (max-width: 1500px) {
+    body header{
+        grid-template-columns: 40% 60%;
     }
+}
+
+@media screen and (max-width: 1150px) {
+        body header{
+            grid-template-columns: 35% 65%;
+            nav {
+               a{
+                   line-height: 2rem;
+               }
+           }
+        }
+            
+}
+@media screen and (max-width: 1020px) {
+    body header{
+        grid-template-columns: 30% 70%;
+    }
+    body footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 930px) {
+    body header{
+        grid-template-columns: 25% 75%;
+    }
+}
+@media screen and (max-width: 850px) {
+    body header{
+        grid-template-columns: 20% 80%;
+    }
+}
+@media screen and (max-width: 750px) {
+    body header{
+        grid-template-columns: 15% 85%;
+    }
+}
+@media screen and (max-width: 400px) {
+    body footer{
+        padding: 1rem;
+        gap: 2rem;
+    }
+}
+
+
+
