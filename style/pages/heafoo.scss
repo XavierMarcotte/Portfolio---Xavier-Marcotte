@@ -57,6 +57,10 @@ body{
     }
 }
 
+.nav-mobile{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1500px) {
     body header{
         grid-template-columns: 40% 60%;
@@ -89,15 +93,27 @@ body{
         grid-template-columns: 25% 75%;
     }
 }
+
 @media screen and (max-width: 850px) {
     body header{
-        grid-template-columns: 20% 80%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    body header nav{
+        display: none;
+    }
+}
+@media screen and (min-width: 851px) {
+    .nav-mobile{
+        display: none;
     }
 }
 @media screen and (max-width: 750px) {
     body header{
         grid-template-columns: 15% 85%;
     }
+
 }
 @media screen and (max-width: 400px) {
     body footer{
@@ -106,5 +122,14 @@ body{
     }
 }
 
-
-
+.print-nav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    padding: 2em 0;
+    font-size: 2em;
+    gap: 2rem;
+    width: 100%;
+    background: rgba(0, 0, 0);
+}

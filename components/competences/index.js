@@ -15,7 +15,6 @@ function Competences() {
     setSelectedCompetence(competence);
   };
 
-
   let competenceContent = null;
   if (selectedCompetence === 'front') {
     competenceContent = <Front />;
@@ -42,8 +41,32 @@ function Competences() {
             Technos
           </li>
         </ul>
-        <div className="competencescontent">
+        <div className="competencescontent competencescontent--desk">
           {competenceContent}
+        </div>
+        <div className="competencescontent competencescontent--mobile">
+          <div className='competencescontent--div'>
+            <h2>Front-end</h2>
+            <div className='competencescontent--div--element'>
+              <Front />
+            </div>
+          </div>
+        </div>
+        <div className="competencescontent competencescontent--mobile">
+          <div className='competencescontent--div'>
+            <h2>Back-end</h2>
+            <div className='competencescontent--div--element'>
+              <Back />
+            </div>
+          </div>
+        </div>
+        <div className="competencescontent competencescontent--mobile">
+          <div className='competencescontent--div'>
+            <h2>Technos</h2>
+            <div className='competencescontent--div--element'>
+              <Outils />
+            </div>
+          </div>
         </div>
       </div>
     </section>

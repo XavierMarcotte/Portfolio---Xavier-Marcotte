@@ -89,3 +89,33 @@
     background: white;
 }
 
+@media screen and (max-width: 650px){
+    .competences ul{
+        display: none;
+    }
+    .competences .competencescontent--desk{
+        display: none;
+    }
+    .competences .competencescontent--mobile{
+        display: block;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        min-height: 0;
+    }
+    .competencescontent--div--element{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .competencescontent--div h2 {
+        padding-top: 0;
+        margin: auto auto 2rem;
+    }
+    .competences .competencescontent article img{
+        width: 4.5rem;
+    }
+}
+@media screen and (min-width:651px) {
+    .competences .competencescontent--mobile{
+        display: none;
+    }
+}
