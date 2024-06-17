@@ -9,6 +9,7 @@ import tsLogo from "./meslogos/ts.png";
 import next from "./meslogos/nextjs.png";
 import tailwind from "./meslogos/tailwind.png";
 import ui from "./meslogos/ui.png";
+import vuejs from "./meslogos/vuejs.png";
 
 function Front() {
   return (
@@ -26,6 +27,7 @@ function Front() {
       <Article logo={<img src={next} alt="Next.js" />} nom="Next.js" />
       <Article logo={<img src={tailwind} alt="Tailwind" />} nom="Tailwind" />
       <Article logo={<img src={ui} alt="ui" />} nom="ui" />
+      <Article logo={<img src={vuejs} alt="Vue.js" />} nom="Vue.js" />
     </>
   );
 }

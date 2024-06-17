@@ -5,6 +5,7 @@ import psqlLogo from "./meslogos/psql.png";
 import sequelize from "./meslogos/sequelize.png";
 import php from "./meslogos/php.png";
 import mysql from "./meslogos/mysql.png";
+import prisma from "./meslogos/prisma.png";
 
 function Back() {
   return (
@@ -16,8 +17,9 @@ function Back() {
         nom="PostgreSQL"
       />
       <Article logo={<img src={sequelize} alt="Sequelize" />} nom="Sequelize" />
-      <Article logo={<img src={mysql} alt="mysql" />} nom="mysql" />
-      <Article logo={<img src={php} alt="php" />} nom="php" />
+      <Article logo={<img src={mysql} alt="Mysql" />} nom="Mysql" />
+      <Article logo={<img src={php} alt="Php" />} nom="Php" />
+      <Article logo={<img src={prisma} alt="Prisma" />} nom="Prisma" />
     </>
   );
 }
